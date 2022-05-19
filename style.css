@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    width: 350px;
+    height: 350px;
+    flex-direction: column;
+  }
+  
+  fieldset{
+    margin: 15px 10px;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+  }
+  ul{
+    list-style-type: none;
+  }
+  
+  
+  label.title{
+    font-weight: bold;
+    position: absolute;
+  }
+  
+  .hide {
+    display: none;
+  }
+  input{
+    margin-left: 100px;
+  }
+  .joinbt{
+    display: flex;
+    justify-content: center;
+  }
